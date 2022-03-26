@@ -1,0 +1,42 @@
+<xs:schema xmlns:xsd="">
+<xs:element name="address">
+	<xs:complexType>
+		<xs:sequence>
+	<xs:element name="street"
+		type="xs:string"/> 
+	<xs:element name="city"
+		type="xs:string"/> 
+	<xs:element name="state"
+		type="xs:string"/> 
+	<xs:element name="zip"
+		type="xs:integer"/> 
+		</xs:sequence>
+	</xs:complexType>
+<xs:element name="name">
+	<xs:complexType>
+		<xs:sequence>
+	<xs:element name="firstName"
+		type="xs:string"/> 
+	<xs:element name="lastName"
+		type="xs:string"/> 
+		</xs:sequence>
+	</xs:complexType>
+<xs:element name="email" 
+             type="xs:string">
+<xs:element name="phone" 
+             type="xs:integer">
+<xs:element name="birthday">
+	<xs:complexType>
+		<xs:sequence>
+	<xs:element name="month"
+		type="xs:string"/> 
+	<xs:element name="day"
+		type="xs:integer"/> 
+	<xs:element name="year"
+		type="xs:integer"/> 
+		</xs:sequence>
+	</xs:complexType>
+<xs:element name="gender" 
+             type="xs:string">
+<xs:element name="eyeColor" 
+             type="xs:string">
