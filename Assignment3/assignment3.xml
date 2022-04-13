@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<root>
+<address>
+	<street>94 Big Street</street>
+	<city>Bridgefield</city>
+	<state>CT</state>
+	<zip>06788</zip>
+</address>
+<name>
+    <firstName>John</firstName>
+    <lastName>Doe</lastName>
+</name>
+<email>gk42919p@pace.edu</email>
+<phone>2345039480</phone>
+<birthday>
+    <month>March</month>
+    <day>25</day>
+    <year>1999</year>
+</birthday>
+<gender>M</gender>
+<eyeColor>BRN</eyeColor>
+</root>
